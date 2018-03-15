@@ -24,28 +24,28 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
   * ITALIANO
       * Documentazione ufficiale: [Punto di partenza per principianti](http://python.it/doc/newbie/)
       * Documentazione ufficiale: Manuale di riferimento [PDF](http://docs.python.it/paper-a4/ref.pdf) - [HTML](http://docs.python.it/paper-a4/ref-html.tar.gz)
-	  * Documentazione ufficiale: Tutorial [PDF](http://docs.python.it/paper-a4/tut.pdf) [HTML](http://docs.python.it/paper-a4/lib-html.tar.gz)
-      * eBook: ThinkPython: [PDF](https://github.com/AllenDowney/ThinkPythonItalian/blob/master/thinkpython_italian.pdf)
+          * Documentazione ufficiale: Tutorial [PDF](http://docs.python.it/paper-a4/tut.pdf) [HTML](http://docs.python.it/paper-a4/lib-html.tar.gz)
       * eBook: Immersione in Python 3: [HTML](http://gpiancastelli.altervista.org/dip3-it/) - [PDF](http://gpiancastelli.altervista.org/dip3-it/d/diveintopython3-it-pdf-latest.zip)
+      * eBook: ThinkPython: [PDF](https://github.com/AllenDowney/ThinkPythonItalian/blob/master/thinkpython_italian.pdf)
 
   * INGLESE
 
       * [Python 3 Official Documentation](https://docs.python.org/3/download.html)
-      * [Think Python 2e](http://greenteapress.com/wp/think-python-2e/)
-      * [Python Practice Book](https://anandology.com/python-practice-book/index.html)
-      * [The Coder's Apprentice: Learning Programming with Python 3](http://www.spronck.net/pythonbook/)
-      * [Python Programming](https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf)
-      * [Python 3 Official Documentation](http://pymbook.readthedocs.io/en/py3/)
+
+      * [A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial)
+      * [A Byte of Python (Tutorial)](https://python.swaroopch.com/first_steps.html)
+      * [Building Skills in Python](http://www.itmaybeahack.com/book/python-2.6/latex/BuildingSkillsinPython.pdf)
+      * [CodeCademy: Python (Tutorial)](https://www.codecademy.com/learn/python)
       * [Dive Into Python 3](http://getpython3.com/diveintopython3/)
       * [Fundamentals of Programming Python](http://python.cs.southern.edu/pythonbook/pythonbook.pdf)
-      * [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
-      * [Building Skills in Python](http://www.itmaybeahack.com/book/python-2.6/latex/BuildingSkillsinPython.pdf)
       * [O’Reilly Media: A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf)
       * [Packt Publishing: Learning Python](https://www.packtpub.com/packt/free-ebook/learning-python)
       * [Packt Publishing: What You Need To Know About Python](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python)
-      * [A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial)
-      * [A Byte of Python (Tutorial)](https://python.swaroopch.com/first_steps.html)
-      * [CodeCademy: Python (Tutorial)](https://www.codecademy.com/learn/python)
+      * [Python Practice Book](https://anandology.com/python-practice-book/index.html)
+      * [Python Programming](https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf)
+      * [The Coder's Apprentice: Learning Programming with Python 3](http://www.spronck.net/pythonbook/)
+      * [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
+      * [Think Python 2e](http://greenteapress.com/wp/think-python-2e/)
 
 * ### Video Corsi e Tutorial
   * ITALIANO
@@ -74,6 +74,5 @@ In questi elenchi possono essere trovati approfondimenti e documentazione relati
       * [Syncfusion: Succinctly free eBooks](https://www.syncfusion.com/ebooks)
 
 *  ### Video Corsi e Tutorial
-   * In inglese 
+   * In inglese
       * [Free Python Podcasts and Screencasts](https://github.com/EbookFoundation/free-programming-books/blob/master/free-podcasts-screencasts-en.md#python)
-
