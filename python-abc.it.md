@@ -1,6 +1,6 @@
 # Python ABC
 
-_Se vuoi imparare Python parti dall'ABC._
+_**Se vuoi imparare Python parti dall'ABC**_
 
 Queste pagine vogliono essere un semplice strumento in grado di fornire un'immediata, unica e chiara risposta alle comuni domande di chi si avvicina per la prima volta al linguaggio Python.
 
