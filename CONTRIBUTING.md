@@ -13,7 +13,7 @@ Non è necessario conoscere ed utilizzare git, se hai trovato qualcosa di utile 
 
 **Quali contenuti?**
 
- * eBook, Corsi, Tutorial in formato testo e video
+ * eBook, Corsi, Tutorial in formato testo, video o interattivi
  * Ricordarsi che l'obiettivo è quello di dare strumenti a chi sta iniziando a programmare, questo è l'ABC. Inutile pubblicare link a eBook o tutorial per librerie o framework specifici.
  * Contenuti recenti, vista la velocità a cui cambiano le cose nel mondo della programmazione è sempre meglio privilegiare contenuti recenti
  * Risalire sempre alla fonte ufficiale, un link ad un eBook pubblicato all'interno di una conversazione di un forum non è un buon link.
