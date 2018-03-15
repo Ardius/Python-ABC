@@ -23,7 +23,7 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
   * Documentazione ufficiale
      * [Cos'è Python - FAQ](http://python.it/doc/faq/)
      * [Punto di partenza per principianti](http://python.it/doc/newbie/)
-  * [Html.it: Installare Python](http://www.html.it/pag/15609/installare-python/)
+  * [Installare Python - html.it](http://www.html.it/pag/15609/installare-python/)
   * [Come installare e usare Python su Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
   * [Come installare pacchetti Python in Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
 
