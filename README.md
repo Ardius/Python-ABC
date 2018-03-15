@@ -12,4 +12,4 @@ Prima di voler scrivere un qualunque programma con Python è necessario conoscer
 
 Questa è un'indicizzione delle migliori risorse online per imparare Python.
 
-[Vai alla pagina di Python-ABC](/python-abc-it.md)
+[Vai alla pagina di Python-ABC](https://github.com/draio/Python-ABC/blob/master/python-abc.it.md)
