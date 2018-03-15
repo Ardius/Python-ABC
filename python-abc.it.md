@@ -29,7 +29,7 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
 
 ## Strumenti online
 
-  * Puoi provare il tuo codice senza installare nulla sul tuo PC usando un compilatore online
+  * Puoi provare il tuo codice, senza installare nulla sul tuo PC, usando un compilatore online
      * [Judge0 IDE](https://ide.judge0.com)
   * Se vuoi condividere il tuo codice in un forum o chat usa un servizio adatto
      * [Pastebin](https://pastebin.com)
