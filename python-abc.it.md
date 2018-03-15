@@ -1,15 +1,15 @@
-#Python ABC#
+# Python ABC
 
 **Questa pagina si propone di fornire i collegamenti alle risorse necessarie per imparare le basi della programmazione con il linguaggio Python.**
 
-##Riferimenti Online##
+## Riferimenti Online
 * **Python.org**: [il sito ufficiale](https://docs.python.org)
 * **Python.it** : [Sito](http://www.python.it/) - [Forum](http://www.python.it/forum) - [Telegram](https://t.me/pythonita) - [Mailing list](http://www.python.it/comunita/mailing-list/)
 * **Python-it.org**: [Sito](http://www.python-it.org) - [Forum](http://www.python-it.org/forum)
 
-##Documentazione Gratuita##
+## Documentazione Gratuita
 
-* ###eBook, Guide e Tutorial###
+* ### eBook, Guide e Tutorial
   * ITALIANO
       * Documentazione ufficiale: [Punto di partenza per principianti](http://python.it/doc/newbie/)
       * Documentazione ufficiale: Manuale di riferimento [PDF](http://docs.python.it/paper-a4/ref.pdf) - [HTML](http://docs.python.it/paper-a4/ref-html.tar.gz)
@@ -36,7 +36,7 @@
       * [A Byte of Python (Tutorial)](https://python.swaroopch.com/first_steps.html)
       * [CodeCademy: Python (Tutorial)](https://www.codecademy.com/learn/python)
 
-* ###Video Corsi e Tutorial###
+* ### Video Corsi e Tutorial
   * ITALIANO
       * [Video Corso Python 3 - Impara a Programmare in Python 3.6](https://www.youtube.com/playlist?list=PLHUQL6-_n9Zes1VLMgJbLa8IIOHT9x4Nu)
       * [Python 3.6 Tutorial Italiano - Programmazione a Oggetti - Classi e Istanze](https://www.youtube.com/watch?v=nmoJf-Ei4TA&list=PLHUQL6-_n9ZdD3JMKg4On4NFh8bBg3Ckn)
@@ -49,11 +49,11 @@
       * [Python Tips](https://www.youtube.com/playlist?list=PLP8GkvaIxJP3ignHY_Dq7bFsvwzAcqZ1i)
       * [Build applications with Python](https://www.youtube.com/playlist?list=PL41psiCma00wwvtQyLFMFpzWxUYmSZwZy)
 
-##Altre Raccolte##
+## Altre Raccolte
 Di seguito sono elencate altre raccolte di link a documentazione relativa a Python.
 In questi elenchi possono essere trovati approfondimenti e documentazione relativa a specifiche librerie o framework (Django, Flask, Kivy, Pandas, Pyramid. Tornado, ...)
 
-* ###eBook, Guide e Tutorial###
+* ### eBook, Guide e Tutorial
   * In italiano
       * [Python.it - I libri su Python](http://www.python.it/doc/libri/)
   * In inglese
@@ -62,7 +62,7 @@ In questi elenchi possono essere trovati approfondimenti e documentazione relati
       * [O’Reilly Media: Free Ebooks](http://www.oreilly.com/free/reports.html)
       * [Syncfusion: Succinctly free eBooks](https://www.syncfusion.com/ebooks)
 
-*  ###Video Corsi e Tutorial###
+*  ### Video Corsi e Tutorial
    * In inglese 
       * [Free Python Podcasts and Screencasts](https://github.com/EbookFoundation/free-programming-books/blob/master/free-podcasts-screencasts-en.md#python)
 
