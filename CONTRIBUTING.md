@@ -1,8 +1,8 @@
-#Contributor License Agreement#
+# Contributor License Agreement
 
 Chiunque contribuisce a questo repository accetta implicitamente le regole descritte nel [codice di condatta](/CODE_OF_CONDUCT.md).
 
-##Regole di pubblicazione##
+## Regole di pubblicazione
 
 **Assicurarsi sempre che il materiale sia gratuito.**
 Un link per scaricare facilmente un libro non è sempre un link a un contenuto gratuito.
