@@ -14,8 +14,8 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
 
 
 ## Principali Riferimenti Online
-* **Python.org**: [il sito ufficiale](https://docs.python.org)
-* **Python.it** : [Sito](http://www.python.it/) - [Forum](http://www.python.it/forum) - [Telegram](https://t.me/pythonita) - [Mailing list](http://www.python.it/comunita/mailing-list/)
+* **Python.org**: [il sito ufficiale in inglese](https://docs.python.org)
+* **Python.it** : [Sito ufficiale italiano](http://www.python.it/) - [Forum](http://www.python.it/forum) - [Telegram](https://t.me/pythonita) - [Mailing list](http://www.python.it/comunita/mailing-list/)
 * **Python-it.org**: [Sito](http://www.python-it.org) - [Forum](http://www.python-it.org/forum)
 
 ## Per iniziare
