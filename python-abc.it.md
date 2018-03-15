@@ -48,8 +48,10 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
       * [Dive Into Python 3](http://getpython3.com/diveintopython3/)
       * [Fundamentals of Programming Python](http://python.cs.southern.edu/pythonbook/pythonbook.pdf)
       * [O’Reilly Media: A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf)
-      * [Packt Publishing: Learning Python](https://www.packtpub.com/packt/free-ebook/learning-python)
-      * [Packt Publishing: What You Need To Know About Python](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python)
+      * Packt Publishing
+          * [Learning Python](https://www.packtpub.com/packt/free-ebook/learning-python)
+          * [What You Need To Know About Python](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python)
+          * [Mastering Python](https://www.packtpub.com/free-ebook/mastering-python)
       * [Python Practice Book](https://anandology.com/python-practice-book/index.html)
       * [Python Programming](https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf)
       * [The Coder's Apprentice: Learning Programming with Python 3](http://www.spronck.net/pythonbook/)
