@@ -27,6 +27,13 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
   * [Come installare e usare Python su Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
   * [Come installare pacchetti Python in Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
 
+## Strumenti online
+
+  * Puoi provare il tuo codice senza installare nulla sul tuo PC usando un compilatore online
+     * [Judge0 IDE](https://ide.judge0.com)
+  * Se vuoi condividere il tuo codice in un forum o chat usa un servizio adatto
+     * [Pastebin](https://pastebin.com)
+
 ## Documentazione Gratuita
 
 * ### eBook, Guide e Tutorial
