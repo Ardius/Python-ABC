@@ -22,6 +22,7 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
 
 * ### eBook, Guide e Tutorial
   * ITALIANO
+      * Documentazione ufficiale: [Cos'è Python - FAQ](http://python.it/doc/faq/)
       * Documentazione ufficiale: [Punto di partenza per principianti](http://python.it/doc/newbie/)
       * Documentazione ufficiale: Manuale di riferimento [PDF](http://docs.python.it/paper-a4/ref.pdf) - [HTML](http://docs.python.it/paper-a4/ref-html.tar.gz)
           * Documentazione ufficiale: Tutorial [PDF](http://docs.python.it/paper-a4/tut.pdf) [HTML](http://docs.python.it/paper-a4/lib-html.tar.gz)
@@ -65,14 +66,16 @@ Di seguito sono elencate altre raccolte di link a documentazione relativa a Pyth
 In questi elenchi possono essere trovati approfondimenti e documentazione relativa a specifiche librerie o framework (Django, Flask, Kivy, Pandas, Pyramid. Tornado, ...)
 
 * ### eBook, Guide e Tutorial
-  * In italiano
+  * ITALIANO
       * [Python.it - I libri su Python](http://www.python.it/doc/libri/)
-  * In inglese
+  * INGLESE
       * [Free Programming Books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-podcasts-screencasts-en.md#python)
       * [Packt Publishing: Free Learning - Free Programming Ebooks](https://www.packtpub.com/packt/offers/free-learning)
       * [O’Reilly Media: Free Ebooks](http://www.oreilly.com/free/reports.html)
       * [Syncfusion: Succinctly free eBooks](https://www.syncfusion.com/ebooks)
 
 *  ### Video Corsi e Tutorial
-   * In inglese
+   * ITALIANO
+       * [Python.it - Media](http://python.it/doc/media/)
+   * INGLESE
       * [Free Python Podcasts and Screencasts](https://github.com/EbookFoundation/free-programming-books/blob/master/free-podcasts-screencasts-en.md#python)
