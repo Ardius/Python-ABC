@@ -29,7 +29,7 @@
       * [Fundamentals of Programming Python](http://python.cs.southern.edu/pythonbook/pythonbook.pdf)
       * [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
       * [Building Skills in Python](http://www.itmaybeahack.com/book/python-2.6/latex/BuildingSkillsinPython.pdf)
-      * [O’Reilly Media: A Whirlwind Tour of Python](vhttp://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf)
+      * [O’Reilly Media: A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf)
       * [Packt Publishing: Learning Python](https://www.packtpub.com/packt/free-ebook/learning-python)
       * [Packt Publishing: What You Need To Know About Python](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python)
       * [A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial)
