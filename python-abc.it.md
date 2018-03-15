@@ -54,6 +54,7 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
           * [Mastering Python](https://www.packtpub.com/free-ebook/mastering-python)
       * [Python Practice Book](https://anandology.com/python-practice-book/index.html)
       * [Python Programming](https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf)
+      * [Syncfusion: Python Succinctly](https://www.syncfusion.com/ebooks/python)
       * [The Coder's Apprentice: Learning Programming with Python 3](http://www.spronck.net/pythonbook/)
       * [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
       * [Think Python 2e](http://greenteapress.com/wp/think-python-2e/)
