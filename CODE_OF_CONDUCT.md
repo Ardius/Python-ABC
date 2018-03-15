@@ -1,4 +1,4 @@
-#Codice di condotta#
+# Codice di condotta
 
 Ogni collaboratore e manutentore di questo progetto, nell'interesse di promuovere una comunità aperta e accogliente, si impegna a rispettare tutte le persone che contribuiscono attraverso segnalazioni, aggiornamenti, pubblicazioni e richieste di funzionalità.
 
