@@ -1,6 +1,6 @@
 # Contributor License Agreement
 
-Chiunque contribuisce a questo repository accetta implicitamente le regole descritte nel [codice di condatta](/CODE_OF_CONDUCT.md).
+Chiunque contribuisce a questo repository accetta implicitamente le regole descritte nel [codice di condotta](/CODE_OF_CONDUCT.md).
 
 ## Regole di pubblicazione
 
