@@ -18,13 +18,20 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
 * **Python.it** : [Sito](http://www.python.it/) - [Forum](http://www.python.it/forum) - [Telegram](https://t.me/pythonita) - [Mailing list](http://www.python.it/comunita/mailing-list/)
 * **Python-it.org**: [Sito](http://www.python-it.org) - [Forum](http://www.python-it.org/forum)
 
+## Per iniziare
+
+  * Documentazione ufficiale
+     * [Cos'è Python - FAQ](http://python.it/doc/faq/)
+     * [Punto di partenza per principianti](http://python.it/doc/newbie/)
+  * [Installare Python - html.it](http://www.html.it/pag/15609/installare-python/)
+  * [Come installare e usare Python su Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
+  * [Come installare pacchetti Python in Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
+
 ## Documentazione Gratuita
 
 * ### eBook, Guide e Tutorial
   * ITALIANO
       * Documentazione ufficiale
-          * [Cos'è Python - FAQ](http://python.it/doc/faq/)
-          * [Punto di partenza per principianti](http://python.it/doc/newbie/)
           * Manuale di riferimento [PDF](http://docs.python.it/paper-a4/ref.pdf) - [HTML](http://docs.python.it/paper-a4/ref-html.tar.gz)
           * Tutorial [PDF](http://docs.python.it/paper-a4/tut.pdf) [HTML](http://docs.python.it/paper-a4/lib-html.tar.gz)
       * eBook: Immersione in Python 3: [HTML](http://gpiancastelli.altervista.org/dip3-it/) - [PDF](http://gpiancastelli.altervista.org/dip3-it/d/diveintopython3-it-pdf-latest.zip)
