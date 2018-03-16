@@ -49,10 +49,8 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
   * INGLESE
 
       * [Python 3 Official Documentation](https://docs.python.org/3/download.html)
-
       * [A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial)
       * [A Byte of Python (Tutorial)](https://python.swaroopch.com/first_steps.html)
-      * [Building Skills in Python](http://www.itmaybeahack.com/book/python-2.6/latex/BuildingSkillsinPython.pdf)
       * [CodeCademy: Python (Tutorial)](https://www.codecademy.com/learn/python)
       * [Dive Into Python 3](http://getpython3.com/diveintopython3/)
       * [Fundamentals of Programming Python](http://python.cs.southern.edu/pythonbook/pythonbook.pdf)
@@ -67,6 +65,9 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
       * [The Coder's Apprentice: Learning Programming with Python 3](http://www.spronck.net/pythonbook/)
       * [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
       * [Think Python 2e](http://greenteapress.com/wp/think-python-2e/)
+      * [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)
+      * [Building Skills in Python](http://www.itmaybeahack.com/book/python-2.6/latex/BuildingSkillsinPython.pdf)
+
 
 * ### Video Corsi e Tutorial
   * ITALIANO
