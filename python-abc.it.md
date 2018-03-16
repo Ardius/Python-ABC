@@ -38,9 +38,9 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
 
 * ### eBook, Guide e Tutorial
   * ITALIANO
-      * Documentazione ufficiale
-          * Manuale di riferimento [PDF](http://docs.python.it/paper-a4/ref.pdf) - [HTML](http://docs.python.it/paper-a4/ref-html.tar.gz)
-          * Tutorial [PDF](http://docs.python.it/paper-a4/tut.pdf) [HTML](http://docs.python.it/paper-a4/lib-html.tar.gz)
+      * [Documentazione ufficiale](http://docs.python.it)
+          * [Manuale di riferimento  - PDF](http://docs.python.it/paper-a4/ref.pdf)
+          * [Tutorial - PDF](http://docs.python.it/paper-a4/tut.pdf)
       * eBook: Immersione in Python 3: [HTML](http://gpiancastelli.altervista.org/dip3-it/) - [PDF](http://gpiancastelli.altervista.org/dip3-it/d/diveintopython3-it-pdf-latest.zip)
       * eBook: ThinkPython: [PDF](https://github.com/AllenDowney/ThinkPythonItalian/blob/master/thinkpython_italian.pdf)
 
