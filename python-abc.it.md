@@ -33,8 +33,8 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
 
   * Puoi provare il tuo codice, senza installare nulla sul tuo PC, usando un compilatore online
      * [Judge0 IDE](https://ide.judge0.com)
-  * Se vuoi condividere il tuo codice in un forum o chat usa un servizio adatto
-     * [Pastebin](https://pastebin.com)
+  * Per condividere il tuo codice, in un forum o chat, usa un servizio per la condivisione del codice
+     * [Pastebin](https://pastebin.com) -  [hastebin](https://hastebin.com) - [dpaste.de](https://dpaste.de) - [arin.ga](https://arin.ga)
 
 ## Documentazione Gratuita
 
