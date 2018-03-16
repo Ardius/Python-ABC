@@ -18,6 +18,8 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
 * **Python.it** : [sito ufficiale italiano](http://www.python.it/) - [Forum](http://www.python.it/forum) - [Telegram](https://t.me/pythonita) - [Mailing list](http://www.python.it/comunita/mailing-list/)
 * **Python-it.org**: [Sito](http://www.python-it.org) - [Forum](http://www.python-it.org/forum)
 
+**Cerca di usare, per quanto possibile, Python 3.x**, [a breve](https://pythonclock.org) Python 2.7 non verrà più supportato.
+
 ## Per iniziare
 
   * Documentazione ufficiale
