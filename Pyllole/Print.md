@@ -1,7 +1,7 @@
 # Print
 
 
-Print è una funzione (da Python 3 in avanti) che permette di scrivere sulla vostra console delle stringhe.
+Print è una funzione che permette di scrivere sulla vostra console delle stringhe (in Python 2.7 non era una funzione ma un'istruzione built-in del linguaggio che non richiedeva le parentesi).
 
     >>> print("Ciao, questa è una stringa.")               
     Ciao, questa è una stringa.
