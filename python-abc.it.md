@@ -10,7 +10,7 @@ Queste pagine vogliono essere un semplice strumento in grado di fornire un'immed
 
 Prima di voler scrivere un qualunque programma con Python è necessario conoscere le basi.
 
-Questa è un'indicizzione delle migliori risorse online per imparare Python.
+**Nota**: in questo documento si fa riferimento principalmente a Python3
 
 
 ## Principali Riferimenti Online
@@ -28,6 +28,19 @@ Questa è un'indicizzione delle migliori risorse online per imparare Python.
   * [Installare Python - html.it](http://www.html.it/pag/15609/installare-python/)
   * [Come installare e usare Python su Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
   * [Come installare pacchetti Python in Windows](https://gist.github.com/ricpol/2ca0ae46f02bfddf08036fa85519aa97)
+
+## Pyllole
+
+Le Pyllole sono brevi e semplici spiegazioni relative al linguaggio Python 3.
+
+* [Print](Pyllole/Print.md) - [Input](Pyllole/Input.md) - [If/Else](Pyllole/If-Else.md) - [Cicli](Pyllole/Loops.md)
+* [Numeri](Pyllole/Type_Number.md) - [Stringhe](Pyllole/Type_String.md) - [Booleani](Pyllole/Type_Boolean.md) - [None](Pyllole/Type_None.md)
+* [List](Pyllole/Type_List.md) - [Tuple](Pyllole/Type_Tuple.md) - [Set](Pyllole/Type_Set.md) - [Dizionari](Pyllole/Type_Dictionary.md)
+* [Try/Except](Pyllole/Try_Except.md)
+* [Funzioni](Pyllole/Functions.md) - [Moduli](Pyllole/Modules.md)
+* [Iterabili](Pyllole/Iterable.md) - [List Comprehension](Pyllole/List_Comprehension.md)
+* [Classi](Pyllole/Classes.md) - [Ereditarietà](Pyllole/Inheritance.md) - [Ereditarietà Multipla](Pyllole/Inheritance_Multiple.md)
+
 
 ## Strumenti online
 
