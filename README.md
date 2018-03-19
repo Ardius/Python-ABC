@@ -10,6 +10,4 @@ Queste pagine vogliono essere un semplice strumento in grado di fornire un'immed
 
 Prima di voler scrivere un qualunque programma con Python è necessario conoscere le basi.
 
-Questa è un'indicizzione delle migliori risorse online per imparare Python.
-
 [Vai alla pagina di Python-ABC](https://github.com/draio/Python-ABC/blob/master/python-abc.it.md)
