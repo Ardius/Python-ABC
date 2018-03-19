@@ -31,25 +31,55 @@ Le stringhe (ma non le variabili contenenti stringhe) possono essere unite anche
     >>> len("Questa è una stringa")
     20
 
-Il metodo format può essere usato per formattare le stringhe
+## Formattazione delle stringhe
 
-    >>> "{} possono essere {}".format("Le stringhe", "interpolate")' 
-    'Le stringhe possono essere interpolate'
+In Python esistono differenti modi per formattare le stringhe.
 
-Puoi ripetere gli argomenti di formattazione per risparmiare un po' di codice
+### Il metodo .format()
+
+Il tipo stringa ha un **metodo format** per formattare le stringhe.
+In questo esempio le variabili _name_ e _food_ vanno a completare la stringa riempiendo i campi (segnalati dalle parentesi grafe) nell'ordine in cui vengono passate al metodo .format().
+   
+    >>> name="John"
+    >>> food="le lasagne"
+    >>> "{} vuole mangiare {}".format(name, food)
+    'John vuole mangiare le lasagne'
+
+È possibile dare un numero ai "campi" da riempire e ripetere così all'interno della stringa gli argomenti passati a format:
 
     >>> "{0} be nimble, {0} be quick, {0} jump over the {1}".format("Jack", "candle stick")
     'Jack be nimble, Jack be quick, Jack jump over the candle stick'
 
-È possibile usare dei nomi se non si vuole contare gli argomenti
+È possibile usare dei nomi al posto dei numeri degli argomenti
 
     >>> "{nome} vuole mangiare {cibo}".format(nome="Bob", cibo="le lasagne") 
     'Bob vuole mangiare le lasagne'
 
-Se il codice Python 3 necessita di eseguire codice Python 2.x puoi ancora utilizzare il vecchio stile di formattazione:
+### L'operatore di interpolazione %
 
-    >>> "%s possono essere %s nel %s modo" % ("Le stringhe", "interpolate", "vecchio") 
-    'Le stringhe possono essere interpolate nel vecchio modo'
+Un altro stile di formattazione delle stringhe è dato dall'operatore % in grado di mettere in relazione una formattazione (in formato stringa) e dei valori. 
+
+    >>> "%s possono essere %s" % ("Le stringhe", "interpolate") 
+    'Le stringhe possono essere interpolate'
+
+Quosto modo è al momento meno utilizzato, per saperne di più si può consultare la pagina [string-formatting](https://docs.python.org/3/library/stdtypes.html?highlight=string%20interpolation#printf-style-string-formatting) della guida ufficiale.
+
+### Formatted string literals - f-string
+
+Da Python 3.6 sono state aggiunte le _Formatted string literals_ o più semplicemente f-string, vengono indicate con una f prima della stringa vera e propria e permettono una formattazione in stile template.
+
+    >>> name = 'John'
+    >>> food = 'le lasagne'
+    >>> f'Si chiama {name} e ama {food}.'
+    Si chiama John e ama le lasagne.
+
+Con le f-string è possibile anche eseguire delle espressioni all'interno del template.
+
+    >>> name = 'John'
+    >>> seven = 7
+    >>> f'''Il suo nome è {name.upper()}
+    ...    ed ha {6 * seven} anni.'''
+    'Il suo nome è John ed ha 42 anni.'
 
 
 
