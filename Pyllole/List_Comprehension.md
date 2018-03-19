@@ -24,5 +24,5 @@ In cui:
 
 * "sequenza" è l'oggetto iterabile
 * "elemento" assume di volta in volta il valore di ogni elemento nella lista
-* "if isinstance(elemento,int)]" è l'espressione opzionale di controllo/elaborazione
+* "if isinstance(elemento,int)" è l'espressione opzionale di controllo/elaborazione
 * "elemento\*2" è l'espressione di output
