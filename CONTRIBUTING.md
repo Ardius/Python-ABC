@@ -1,6 +1,6 @@
 # Contributor License Agreement
 
-Chiunque contribuisce a questo repository accetta implicitamente le regole descritte nel [codice di condotta](/CODE_OF_CONDUCT.md).
+Chiunque contribuisca a questo repository accetta implicitamente le regole descritte nel [codice di condotta](/CODE_OF_CONDUCT.md).
 
 ## Regole di pubblicazione
 
@@ -11,7 +11,14 @@ Si è pregati di contribuire solo con contenuti che abbiano una chiare licenza d
 **Segnalazione di contenuti**
 Non è necessario conoscere ed utilizzare git, se hai trovato qualcosa di utile per questo progetto è possibile semplicemente aprire una segnalazione tramite la funzionalità _issue_ di github.
 
-**Quali contenuti?**
+**Pyllole**
+
+ * Ricordarsi che ci si rivolge a novizi non solo di Python ma anche di programmazione in generale.
+ * Approfondire troppo potrebbe rendere meno comprensibili i concetti di base.
+ * Omettere concetti basilari, d'altro canto, potrebbe creare "fondamenta poco solide".
+ * Inserire link quando si citano concetti già descritti in altre Pyllole .
+
+**Quale documentazione consigliare?**
 
  * eBook, Corsi, Tutorial in formato testo, video o interattivi
  * Ricordarsi che l'obiettivo è quello di dare strumenti a chi sta iniziando a programmare, questo è l'ABC. Inutile pubblicare link a eBook o tutorial per librerie o framework specifici.
