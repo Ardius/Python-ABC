@@ -63,7 +63,22 @@ Le parentesi, come in matematica, indicano la precedenza nell'elaborazione dei c
     >>> 1 + (3 * 2)
     7
 
+È possbile convertire una stringa in numeroo tramite le funzioni int() e float().
+Python genererà un'eccezione Nel caso si passi alle funzioni una stringa non convertibile in numero 
 
+    >>> a="323"                                            
+    >>> type(a)
+    <class 'str'>
+    >>> a=int(a)
+    >>> a
+    323
+    >>> type(a)
+    <class 'int'>
+    >>> a="pippo"
+    >>> int(a)
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ValueError: invalid literal for int() with base 10: 'pippo'
 
 ---
 
