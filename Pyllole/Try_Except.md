@@ -69,4 +69,4 @@ Se si vuole utilizzare il risultato della funzione input(), che è sempre una st
     except:
         print("Il dato inserito non è un numero intero")
         
-        
+Vedi l'esempio pratico nella pagina [cicli](Loops.md) per come ripetere input() finché il valore è corretto.        
