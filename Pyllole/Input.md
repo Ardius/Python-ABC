@@ -18,10 +18,10 @@ La funzione restituisce ciò che è stato inserito tramite tastiera.
 
 ### Valore restituito
 
-La funzione input() restituisce sempre una stringa, se si vuole utilizzare il risultato come dato numerico è necessario convertirlo utilizzando le funzioni [int() o float()](Pyllole/Type_Number.md).
+La funzione input() restituisce sempre una stringa, se si vuole utilizzare il risultato come dato numerico è necessario convertirlo utilizzando le funzioni [int() o float()](Type_Number.md).
 
     >>> stringa = input("Inserisci un numero intero: ")                                  
     Inserisci un numero intero: 42
     >>> numero=int(stringa)
   
-**Importante**: se la stringa passata a int() non è convertibile in un intero, Python genererà un'errore, è quindi consigliabile gestire l'eccezione con [try/except](Pyllole/Try_Except.md)
+**Importante**: se la stringa passata a int() non è convertibile in un intero, Python genererà un'errore, è quindi consigliabile gestire l'eccezione con [try/except](Try_Except.md)
