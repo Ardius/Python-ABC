@@ -45,7 +45,7 @@ Le Pyllole sono brevi e semplici spiegazioni relative al linguaggio Python 3.
 ## Strumenti online
 
   * Puoi provare il tuo codice, senza installare nulla sul tuo PC, usando un compilatore online
-     * [Judge0 IDE](https://ide.judge0.com)
+     * [Judge0 IDE](https://ide.judge0.com) - [repl.it](https://repl.it/)
   * Per condividere il tuo codice, in un forum o chat, usa un servizio per la condivisione del codice
      * [Pastebin](https://pastebin.com) -  [hastebin](https://hastebin.com) - [dpaste.de](https://dpaste.de) - [arin.ga](https://arin.ga)
 
