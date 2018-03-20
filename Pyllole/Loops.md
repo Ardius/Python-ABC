@@ -73,6 +73,22 @@ I cicli while vengono eseguiti finchè la condizione indicata viene a mancare.
 
 **Nota**: La sintassi _"x += 1"_ è la versione compatta di _"x = x+1"_
 
+### Esempio pratico
+**Ciclo while per riproporre la richiesta di dati in caso di errore di immissione**
+
+La funzione input() acqusisce un valore inserito da tastiera in formato stringa. A volte è necessario che il dato acquisito sia un numero, in questi casi si utilizzano le funzioni int() o float() per convertirlo. 
+
+Si può quindi  utilizzare try/except per controllare che sia stato inserito un dato valido, ma per riproporre la domanda in caso di errore è necessario creare un ciclo.
+
+Nel seguente esempio ripetiamo la richiesta finché a "numero" non viene assegnato un valore.
+
+    numero=None                                                                        
+    while not numero:
+        try:
+                  numero=int(input("Inserisci un numero intero: "))
+        except:
+            print("Il dato inserito non è un numero intero")
+
 
 ---
 
