@@ -9,13 +9,19 @@ L'argomento passato ad input (prompt) è la stringa che viene mostrata sulla con
 
 Il programma resterà in attesa dell'inserimento di un dato finché non verrà premuto il tasto invio.
 
-La funzione restituisce una stringa contenente ciò che è stato inserito tramite tastiera.
+La funzione restituisce ciò che è stato inserito tramite tastiera.
 
     >>> age=input("Quanti hanni hai?")
     Quanti hanni hai? 42
     >>> print(age)
     42
 
+### Valore restituito
 
-**Importante**: input() restituisce una stringa! 
-Se si vuole utilizzare il dato come se fosse un numero, ad esempio, è necessario convertire il risultato da stringa ad un formato numerico.
+La funzione input() restituisce sempre una stringa, se si vuole utilizzare il risultato come dato numerico è necessario convertirlo utilizzando le funzioni [int() o float()](Pyllole/Type_Number.md).
+
+    >>> stringa = input("Inserisci un numero intero: ")                                  
+    Inserisci un numero intero: 42
+    >>> numero=int(stringa)
+  
+**Importante**: se la stringa passata a int() non è convertibile in un intero, Python genererà un'errore, è quindi consigliabile gestire l'eccezione con [try/except](Pyllole/Try_Except.md)
