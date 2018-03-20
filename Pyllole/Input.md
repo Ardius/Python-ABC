@@ -25,3 +25,7 @@ La funzione input() restituisce sempre una stringa, se si vuole utilizzare il ri
     >>> numero=int(stringa)
   
 **Importante**: se la stringa passata a int() non è convertibile in un intero, Python genererà un'errore, è quindi consigliabile gestire l'eccezione con [try/except](Try_Except.md)
+
+Vedi l'esempio pratico nella pagina [try/except](Try_Except.md) per come gestire l'errata conversione.
+
+Vedi l'esempio pratico nella pagina [cicli](Loops.md) per come ripetere input() finché il valore è corretto.
