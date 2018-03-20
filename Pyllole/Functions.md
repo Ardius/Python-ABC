@@ -42,28 +42,30 @@ x è 5 e y è 6
 11
 ```
 
-Puoi definire funzioni che accettino un numero non definito di argomenti:
+Puoi definire funzioni che accettino un numero non definito di argomenti definindo la funzione con un argomento preceduto da un asterisco:
 
 ```python
 def varargs(*args):                                    
     return args
 ```
 
-All'interno della funzione, `args` sarà una tupla contenente tutti i parametri passati alla funzione.
+All'interno della funzione la variabile `args` sarà di un tipo particolare chiamato tupla.
+Questa variabile conterrà tutti i parametri passati alla funzione (leggi la pagine relativa alle [liste](Type_List.md) e alle [tuple](Type_Tuple.md)).
 
 ```python
 >>> varargs(1, 2, 3)                                   
 (1, 2, 3)
 ```
 
-Puoi definire funzioni che accettano un numero variabile coppie chiave/valere come argomento:
+Puoi definire funzioni che accettino un numero variabile di coppie chiave/valere come argomento devi definire la funzione con un argomento preceduto da due asterischi:
 
 ```python
 def keyword_args(**kwargs):                           
     return kwargs
 ```
 
-All'interno della funzione, `kwargs` sarà un dizionario contenente tutte le coppie chiave/valore passati come parametri.
+All'interno della funzione la variabile `kwargs` sarà di un tipo particolare dizionario.
+Questa variabili conterrà tutti i paramentri inviati come coppie chiave/valore  (leggi la pagine relativa ai [dizionari](Type_Dictionary.md)).
 
 ```python
 >>> keyword_args(alpha=40, beta=50)                  
