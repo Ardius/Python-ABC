@@ -62,7 +62,7 @@ Infine, in qualunque caso, si scriverà "Fine" sulla console.
 ### Esempio pratico
 **Conversione e controllo risultato di input()**
 
-Se si vuole utilizzare il risultato della funzione input(), che è sempre una stringa, come dato numerico è necessario convertirlo utilizzando le funzioni [int() o float()](Pyllole/Type_Number.md). Il valore immesso potrebbe però non essere convertibile in un numero, in questo caso la funzione di conversione usata genererà un'errore che è meglio gestire.
+Se si vuole utilizzare il risultato della funzione input(), che è sempre una stringa, come dato numerico è necessario convertirlo utilizzando le funzioni [int() o float()](Type_Number.md). Il valore immesso potrebbe però non essere convertibile in un numero, in questo caso la funzione di conversione usata genererà un'errore che è meglio gestire.
 
     stringa = input("Inserisci un numero intero: ")                                                     
     try:
