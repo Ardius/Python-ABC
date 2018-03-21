@@ -43,8 +43,9 @@ _Per uteriori informazioni su questo argomento cercare in rete "[Python immutabl
 
 ### Nomi e convenzioni delle variabili
 
-In Python i nomi delle variabili possono essere di qualsiasi lunghezza e possono usare lettere maiuscole o minuscole, il carattere di sottolineatura `_`  e le cifre da 0 a 9. Tuttavia, i nomi delle variabili non possono iniziare con una cifra.
-Attenzione, i nomi delle variabili sono case sensitive, `nome` e `Nome` sono due variabili differenti.
+In Python i nomi delle variabili possono essere di qualsiasi lunghezza e possono usare lettere maiuscole o minuscole, il carattere di sottolineatura `_`  e le cifre da 0 a 9. 
+I nomi delle variabili non possono iniziare con una cifra e non possono essere uguali alla parole riservate del linguaggio Python, come ad esempio `if`, `else`, `and`.
+I nomi delle variabili sono case sensitive, `nome` e `Nome` sono quindi due variabili differenti.
 
 Infine, come convenzione per migliorare la leggibilità del codice, si suggerisce di dare alle variabili un **nome minuscolo con le eventuali parole separate dal carattere di sottolineatura `_`**. 
 
