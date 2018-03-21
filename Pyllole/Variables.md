@@ -34,19 +34,21 @@ Più o meno in tutti i linguaggi di programmazione, per assegnare un valore ad u
 nome="Pippo"
 ```
 
-In Python i nomi delle variabili possono essere di qualsiasi lunghezza e possono usare lettere maiuscole o minuscole, il carattere di sottolineatura `_`  e le cifre 0-9. Tuttavia, i nomi delle variabili non possono iniziare con una cifra.
-Attenzione, i nomi delle variabili sono case sensitive, `nome` e `Nome` sono due variabili differenti.
-
-Infine, come convenzione per migliorare la leggibilità del codice, si suggerisce di dare alle variabili un **nome minuscolo con le eventuali parole separate da underscore (trattino basso) 
-
-I nomi di variabili seguono la stessa convenzione dei nomi di funzioni.
-
 In realtà **una variabile non è _il contenitore_ ma solo un soprannome che si dà ad una zona di memoria**. 
 
 In Python, per gran parte dei tipi, assegnare un nuovo valore ad una variabile non vuol dire modificare il valore di una zona di memoria, ma far "puntare" il nostro "soprannome" ad una nuova zona di memoria con un nuovo contenuto.  
 Questa operazione è del tutto trasparente per il programmatore, ma è una cosa molto importante da sapere quando si realizzano programmi in cui le performance contano.
 
 _Per uteriori informazioni su questo argomento cercare in rete "[Python immutable types](https://www.google.it/search?q=python+immutable+types)"_
+
+### Nomi e convenzioni delle variabili
+
+In Python i nomi delle variabili possono essere di qualsiasi lunghezza e possono usare lettere maiuscole o minuscole, il carattere di sottolineatura `_`  e le cifre 0-9. Tuttavia, i nomi delle variabili non possono iniziare con una cifra.
+Attenzione, i nomi delle variabili sono case sensitive, `nome` e `Nome` sono due variabili differenti.
+
+Infine, come convenzione per migliorare la leggibilità del codice, si suggerisce di dare alle variabili un **nome minuscolo con le eventuali parole separate da `_`. 
+
+
 
 ### Tipizzazione
 
