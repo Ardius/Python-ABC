@@ -1,37 +1,45 @@
 # None 
 
-**None** serve per indicare un valore nullo.None non è uguale a False, non è 0 e non è una stringa vuota. 
+`None` è un particolare tipo di dato che indica un valore nullo, l'assenza di dati. 
+`None` non è uguale a `False`, non è `0` e non è una string vuota. 
 
-    >>> type(None)                                         
-    <class 'NoneType'>
+```python
+>>> type(None) 
+<class 'NoneType'>
+```
 
-    >>> None == ''                                         
-    False
-    >>> '' == None
-    False
-    >>> 0 == None
-    False
-    >>> False == None
-    False
-    >>> None is None
-    True
+```python
+>>> None == '' 
+False
+>>> '' == None
+False
+>>> 0 == None
+False
+>>> False == None
+False
+>>> None is None
+True
+```
 
-È possibile assegnare None a qualsiasi variabile ma non si possono creare altri oggetti di tipo NoneType. 
-Ogni varibile il cui valore è None punta allo stesso, ed unico, oggetto None.
-Per comparare un oggetto a None si deve quindi utilizzare "is", non "==".
+È possibile assegnare `None` a qualsiasi variabile ma non si possono creare altri oggetti di tipo `NoneType`. 
+Ogni varibile il cui valore è `None` punta allo stesso, ed unico, oggetto `None`.
+Per comparare un oggetto a `None` si deve quindi utilizzare `is`, non `==`.
 
-    >>> "etc" is None                                      
-    False
-    >>> None is None
-    True
+```python
+>>> "etc" is None
+False
+>>> None is None
+True
+```
 
-In una valutazione booleana None viene considerato False.
+In una valutazione booleana `None` viene considerato `False`.
 
-    >>> bool(None)                                         
-    False
-    >>> not None
-    True
-
+```python
+>>> bool(None) 
+False
+>>> not None
+True
+```
 
 ---
 
