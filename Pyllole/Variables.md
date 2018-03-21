@@ -10,7 +10,7 @@ All'interno della memoria del tuo PC tutti i dati sono _byte_, gruppetti di 8 _b
 
 A seconda di come i byte vengono utilizzati e interpretati è possibile rappresentare sia numeri più grandi sia altri tipi di dati, per esempio un testo o una immagine.
 
-Potrei decidere che i numeri da 65 a 90 indicano le lettere dell'alfabeto, così per memorizzare un testo mi basterà scrivere i byte relativi ad ogni sua lettera. Potrei decidere che il nero è 0 e il bianco è 255, in mezzo tutte le sfumature di grigio e così poter memorizzare un'immagine.
+Potremmo decidere che i numeri da 65 a 90 indicano le lettere dell'alfabeto, così per memorizzare un testo mi basterà scrivere i byte relativi ad ogni sua lettera. Potremmo altresì decidere che il nero è 0 e il bianco è 255, in mezzo tutte le sfumature di grigio e così poter memorizzare un'immagine.
 
 Così nascono gli standard, dall'ASCII a UTF-8, dalle GIF alle PNG, tutti i modi per rappresentare testo, immagini e suoni sono fondamentalmente byte interpretati da algoritmi.
 
