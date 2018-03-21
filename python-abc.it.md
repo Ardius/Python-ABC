@@ -33,6 +33,7 @@ Prima di voler scrivere un qualunque programma con Python è necessario conoscer
 
 Le Pyllole sono brevi e semplici spiegazioni relative al linguaggio Python 3.
 
+* [Le variabili](Pyllole/Variables.md)
 * [Print](Pyllole/Print.md) - [Input](Pyllole/Input.md) - [If/Else](Pyllole/If-Else.md) - [Cicli](Pyllole/Loops.md)
 * [Numeri](Pyllole/Type_Number.md) - [Stringhe](Pyllole/Type_String.md) - [Booleani](Pyllole/Type_Boolean.md) - [None](Pyllole/Type_None.md)
 * [Liste](Pyllole/Type_List.md) - [Tuple](Pyllole/Type_Tuple.md) - [Set](Pyllole/Type_Set.md) - [Dizionari](Pyllole/Type_Dictionary.md)
