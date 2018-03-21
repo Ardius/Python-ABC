@@ -71,6 +71,23 @@ Traceback (most recent call last):
 NameError: name 'a' is not defined
 ```
 
-
 **Importante**: qui sopra abbiamo anticipato un esempio di controllo `if` in cui c'é `my_var==2`. 
 Il doppio carattere uguale `==` è sempre un operatore di uguaglianza, non una assegnazione (vedere [operatori booleani]()).
+
+### Casting
+
+Il _casting_ in programmazione è la conversione di un dato da un tipo ad un altro.
+
+Potremmo avere una variabile a cui è assegnato il valore `"123", anche se sembra un numero, come già suggeriscono le virgolette, in realtà si tratta di una stringa (magari acquisita tramite [input](Input.md)).
+
+Se volessi trattare questo `"123"` come se fosse un numero, e sommargline ad esempio un altro, dovrei prima trasformalo in un intero. 
+Per convertire in intero una stringa, o un float, si utilizza la funzione `int()`.
+
+```
+>>> my_var="123"
+>>> print(int(my_var)+20)
+143
+```
+
+C'è una funzione di casting per ogni tipo di dato, molto usate sono, ad esempio, `str()`, `float()`, `list()` o `dict()`.
+
