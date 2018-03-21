@@ -4,162 +4,210 @@ Se immagini una variabile come una scatola in cui puoi mettere un contenuti, una
 
 Una lista vuota si crea utilizzando le parentesi quadre
 
-    >>> li = []                                            
+```python
+>>> li = []
+```
 
+Ora la nostra variabile `li` è un oggetto di tipo `list`
 
-Ora la nostra variabile "li" è un oggetto di tipo 'list'
-
-    >>> type(li)                                           
-    <class 'list'>
+```python
+>>> type(li)
+<class 'list'>
+```
 
 È possibile anche inizializzare una lista già contenente dei dati
 
-    >>> other_li = [4, 5, 6]                               
+```python
+>>> other_li = [4, 5, 6]
+```
 
 Si può aggiungere un valore alla fine della lista con append
 
-    >>> li.append(10)                                      
-    >>> li
-    [7]
-    >>> li.append(20)
-    >>> li.append(30)
-    >>> li.append(40)
-    >>> li.append(50)
-    >>> li
-    [10, 20, 30, 40, 50]
+```python
+>>> li.append(10)
+>>> li
+[7]
+>>> li.append(20)
+>>> li.append(30)
+>>> li.append(40)
+>>> li.append(50)
+>>> li
+[10, 20, 30, 40, 50]
+```
 
 Si può rimuovere un valore dalla fine della lista con pop
 
-    >>> li.pop()                                           
-    50
-    >>> li
-    [10, 20, 30, 40]
+```python
+>>> li.pop()
+50
+>>> li
+[10, 20, 30, 40]
+```
 
-In questo momento abbiamo una lista con tre valori, ognuno di questi dati è in una posizione specifica. Nelle liste si comincia a contare da zero, quindi avremo il numero 10 nella posizione zero, il numero 20 nella posizione uno e così via.
+In questo momento abbiamo una lista con tre valori, ognuno di questi dati è in una posizione specifica. Nelle liste si comincia a contare da zero, quindi avremo il numero `10` nella posizione zero, il numero `20` nella posizione uno e così via.
 
-Per accedere ai dati si usa la sintassi nome_lista[indice]: 
+Per accedere ai dati si usa la sintassi `nome_lista[indice]` 
 
-    >>> li[0]                                              
-    10
-    >>> li[1]
-    20
+```python
+>>> li[0]
+10
+>>> li[1]
+20
+```
 
 Per guardare l'ultimo elemento della lista:
 
-    >>> li[-1]                                             
-    40
+```python
+>>> li[-1]
+40
+```
 
-Guardare al di fuori dei limiti genera un IndexError
+Guardare al di fuori dei limiti genera un `IndexError`
 
-    >>> li[8]                                              
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    IndexError: list index out of range
+```python
+>>> li[8]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+```
 
-La **sintassi slice** (a fetta) permette di guardare intervalli di dati nelle liste
+## Notazione slice
 
-    >>> li[1:3]                                            
-    [20, 30]
+La **notazione slice**, a fetta, permette di "guardare" un intervallo di dati nelle liste.
+La sintassi della notazione è `lista[inizio:fine:passo]` dove `inizio` è l'elemento da cui cominciare a estrapolare gli elementi, `fine` è quello a cui arrivare (-1) e `passo` indica ogni quanti elementi restituirne uno.
 
-Ometti l'inizio e restituirà da 0 all'indice indicato
+Per vedere dal secondo (ricorda che parte da 0) al terzo elemento:
 
-    >>> li[:3]                                             
-    [10, 20, 30]
+```python
+>>> li[1:3]
+[20, 30]
+```
 
-Ometti la fine e restituirà dall'indice alla fine della lista
+Ometti `inizio` e restituirà dall'inizio della lista fino a `fine`
 
-    >>> li[1:]                                             
-    [20, 30, 40]
+```python
+>>> li[:3]
+[10, 20, 30]
+```
 
-È possibile anche indicare il "passo", quanto avanzare nel mostraree i dati.
+Ometti `fine` e restituirà da 'inizio' alla fine della lista
 
-    >>> li[::2]                                            
-    [10,30]
+```python
+>>> li[1:]
+[20, 30, 40]
+```
 
-Si può usare il passo (negativo) per scorrere in modo inverso la lista
+È possibile anche indicare `passo`, di quanto avanzare nel mostraree i dati.
 
-    >>> li[::-1]                                           
-    [40, 30, 20, 10]
+```python
+>>> li[::2]
+[10,30]
+```
 
-La sintassi slices completa è:
+Si può usare `passo` negativo per scorrere in modo inverso la lista
 
-    lista[inizio:fine:passo]                               
+```python
+>>> li[::-1]
+[40, 30, 20, 10]
+```
 
 Creare una copia (one layer deep copy) usando la sintassi slices
 
-    >>> li2 = li[:]                                        
-    >>> li2
-    [10, 20, 30, 40]
+```python
+>>> li2 = li[:]
+>>> li2
+[10, 20, 30, 40]
+```
 
+## Rimozione di elementi 
 
+Rimuovi arbitrariamente elementi da una lista con `del`
 
-Rimuovi arbitrariamente elementi da una lista con "del"
-
-    >>> del li[2]                                          
-    >>> li
-    [10, 20, 40]
-
+```python
+>>> del li[2]
+>>> li
+[10, 20, 40]
+```
 
 Rimuove la prima occorrenza di un valore
 
-    >>> li.remove(20)                                      
-    >>> li
-    [10, 40]
+```python
+>>> li.remove(20)
+>>> li
+[10, 40]
+```
 
+Cercare di rimuovere un valore non contenuto nella lista genera un `ValueError`
 
-Cercare di rimuovere un valore non contenuto nella lista genera un ValueError
+```python
+>>> li.remove(20)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+```
 
-    >>> li.remove(20)                                      
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    ValueError: list.remove(x): x not in list
-
+## Inserimento elementi
 
 Inserisce un elemento all'indice specificato
 
-    >>> li.insert(1, 20)                                   
-    >>> li
-    [10, 20, 40]
+```python
+>>> li.insert(1, 20)
+>>> li
+[10, 20, 40]
+```
 
+## Index
 
 Restituisce l'indice della prima occorrenza dell'elemento fornito
 
-    >>> li.index(40)                                       
-    2
+```python
+>>> li.index(40)
+2
+```
 
-richiedere l'indice di un valore non presente nella lista genera un ValueError
+Richiedere l'indice di un valore non presente nella lista genera un `ValueError`
 
-    >>> li.index(240)                                      
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    ValueError: 240 is not in list
+```python
+>>> li.index(240)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: 240 is not in list
+```
 
-
+## Unire le liste
 
 È possibile unire due o più liste
 
-    >>> li + other_li                                      
-    [10, 20, 40, 4, 5, 6]
+```python
+>>> li + other_li
+[10, 20, 40, 4, 5, 6]
+```
 
-È possibile concatenare una lista ad un'altra con il metodo "extend"
+È possibile concatenare una lista ad un'altra con il metodo `extend`
 
-    >>> li.extend(other_li)                                
-    >>> li
-    [10, 20, 40, 4, 5, 6]
+```python
+>>> li.extend(other_li)
+>>> li
+[10, 20, 40, 4, 5, 6]
+```
 
+## Controlli
 
-Controlla l'esistenza di un valore in una lista con "in"
+Controlla l'esistenza di un valore in una lista con l'operatore `in`
 
-    >>> 4 in li                                            
-    True
-    >>> 22 in li
-    False
+```python
+>>> 4 in li
+True
+>>> 22 in li
+False
+```
 
-Esamina la lunghezza con "len()"
+Esamina la lunghezza con la funzione `len()`
 
-    >>> len(li)                                            
-    6
-
+```python
+>>> len(li)
+6
+```
 
 
 ---
