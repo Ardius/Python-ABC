@@ -74,35 +74,24 @@ IndexError: list index out of range
 ## Notazione slice
 
 La **notazione slice**, a fetta, permette di "guardare" un intervallo di dati nelle liste.
-La sintassi della notazione è `lista[inizio:fine:passo]` dove `inizio` è l'elemento da cui cominciare a estrapolare gli elementi, `fine` è quello a cui arrivare (-1) e `passo` indica ogni quanti elementi restituirne uno.
 
-Per vedere dal secondo (ricorda che parte da 0) al terzo elemento:
+La sintassi della notazione è `lista[from:to:step]`
 
-```python
->>> li[1:3]
-[20, 30]
-```
+ * `from` è l'elemento da cui cominciare a estrapolare gli elementi, ricorda che inizia da zero.
+ * `to` è quello a cui arrivare -1 
+ * `step` indica ogni quanti elementi restituirne uno
 
-Ometti `inizio` e restituirà dall'inizio della lista fino a `fine`
+Slice | Descrizione | Esempio con `li=[10,20,30,40]`
+------------ | ------------- | -------------
+`lista[from:to]`      | gli elementi da `from` fino a `to`-1  |  `li[1:3]` -> `[20,30]`
+`lista[from:]`        | gli elementi da `from` fino alla fine della lista |  `li[2:]` -> `[30,40]`
+`lista[:to]`          | gli elementi dall'inizio fino all'elemento `to`-1 |  `li[:3]` -> `[10, 20,30]`
+`lista[:]`            | tutti gli elementi |  `li[:]` -> `[10,20,30,40]`
+`lista[from:to:step]` | un elemento ogni `step` da `from` fino a `to`-1  |  `li[0:3:2]` -> `[10,30]`
+`lista[from::step]`   | un elemento ogni `step` da `from `fino alla fine della lista |  `li[1::2]` -> `[20,40]`
+`lista[:to:step]`     | un elemento ogni `step` dall'inizio fino all'elemento `to`-1 |  `li[:3:2]` -> `[10,30]`
+`lista[::step]`       | un elemento ogni `step` |  `li[::2]` -> `[10,30]`
 
-```python
->>> li[:3]
-[10, 20, 30]
-```
-
-Ometti `fine` e restituirà da 'inizio' alla fine della lista
-
-```python
->>> li[1:]
-[20, 30, 40]
-```
-
-È possibile anche indicare `passo`, di quanto avanzare nel mostraree i dati.
-
-```python
->>> li[::2]
-[10,30]
-```
 
 Si può usare `passo` negativo per scorrere in modo inverso la lista
 
@@ -111,7 +100,7 @@ Si può usare `passo` negativo per scorrere in modo inverso la lista
 [40, 30, 20, 10]
 ```
 
-Creare una copia (one layer deep copy) usando la sintassi slices
+E' possibile creare una copia della lista (one layer deep copy) usando la sintassi slices
 
 ```python
 >>> li2 = li[:]
