@@ -15,8 +15,8 @@ A seconda di come, cosa e dove è stato installato Python, potrebbe essere neces
 
 ```bash
 $ python
-Python 2.7.9 (default, Jun 29 2016, 13:08:31)
-[GCC 4.9.2] on linux2
+Python 2.7.13 (default, Nov 24 2017, 17:33:09)
+[GCC 6.3.0 20170516] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
