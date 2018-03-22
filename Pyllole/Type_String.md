@@ -1,35 +1,45 @@
+
 # Stringhe - Tipi e Operatori 
 
-Le stringhe sono insiemi di caratterie, frasi, racchiuse tra apici o doppi apici (" o ').
+Le stringhe sono insiemi di caratterie, frasi, racchiuse tra apici `'` o doppi apici `"`.
 
-    "Questa è una stringa"
-    'Anche questa è una stringa'
+`"Questa è una stringa"`
+`'Anche questa è una stringa'`
 
-    >>> type("Questa è una stringa")
-    <class 'str'>
-    >>> type('Anche questa è una stringa.')
-    <class 'str'>
+```python
+>>> type("Questa è una stringa")
+<class 'str'>
+>>> type('Anche questa è una stringa.')
+<class 'str'>
+```
 
-Le stinghe possono essere unite tramite l'operatore della somma (+). Ma cerca di non farlo.
+Le stinghe possono essere unite tramite l'operatore della somma `+`. Ma cerca di non farlo.
 
-    >>> "Hello "+"world!"                                
-    'Hello world!'
+```python
+>>> "Hello "+"world!"
+'Hello world!'
+```
 
-Le stringhe (ma non le variabili contenenti stringhe) possono essere unite anche senza l'operatore +
+Le stringhe (ma non le variabili contenenti stringhe) possono essere unite anche senza l'operatore `+`
 
-    >>> "Hello " "world!"                                  
-    'Hello world!'
+```python
+>>> "Hello " "world!"  
+'Hello world!'
+```
 
- Una stringa può essere considerata come una lista di caratteri, e in quanto tale ogni carattere può essere raggiunto tramite un indice
+Una stringa può essere considerata come una lista di caratteri, in quanto tale ogni carattere può essere raggiunto tramite un indice.
 
-    >>> "Questa è una stringa"[0]                          
-    'Q'
+```python
+>>> "Questa è una stringa"[0]  
+'Q'
+```
 
+È possibile conoscere la lunghezza di una stringa grazie alla funzione `len()`
 
-È possibile conoscere la lunghezza di una stringa
-
-    >>> len("Questa è una stringa")
-    20
+```python
+>>> len("Questa è una stringa")
+20
+```
 
 ## Formattazione delle stringhe
 
@@ -37,49 +47,61 @@ In Python esistono differenti modi per formattare le stringhe.
 
 ### Il metodo .format()
 
-Il tipo stringa ha un **metodo format** per formattare le stringhe.
-In questo esempio le variabili _name_ e _food_ vanno a completare la stringa riempiendo i campi (segnalati dalle parentesi grafe) nell'ordine in cui vengono passate al metodo .format().
+Il tipo stringa ha un metodo `format()` per formattare le stringhe.
+In questo esempio le variabili `name` e `food` vanno a completare la stringa riempiendo i campi (segnalati dalle parentesi grafe) nell'ordine in cui vengono passate al metodo `.format()`.
    
-    >>> name="John"
-    >>> food="le lasagne"
-    >>> "{} vuole mangiare {}".format(name, food)
-    'John vuole mangiare le lasagne'
+```python
+>>> name="John"
+>>> food="le lasagne"
+>>> "{} vuole mangiare {}".format(name, food)
+'John vuole mangiare le lasagne'
+```
 
-È possibile dare un numero ai "campi" da riempire e ripetere così all'interno della stringa gli argomenti passati a format:
+È possibile dare un numero ai "campi" da riempire e ripetere così all'interno della stringa gli argomenti passati a `.format()`:
 
-    >>> "{0} be nimble, {0} be quick, {0} jump over the {1}".format("Jack", "candle stick")
-    'Jack be nimble, Jack be quick, Jack jump over the candle stick'
+```python
+>>> "{0} be nimble, {0} be quick, {0} jump over the {1}".format("Jack", "candle stick")
+'Jack be nimble, Jack be quick, Jack jump over the candle stick'
+```
 
 È possibile usare dei nomi al posto dei numeri degli argomenti
 
-    >>> "{nome} vuole mangiare {cibo}".format(nome="Bob", cibo="le lasagne") 
-    'Bob vuole mangiare le lasagne'
+```python
+>>> "{nome} vuole mangiare {cibo}".format(nome="Bob", cibo="le lasagne") 
+'Bob vuole mangiare le lasagne'
+```
 
-### L'operatore di interpolazione %
+### L'operatore di interpolazione `%`
 
-Un altro stile di formattazione delle stringhe è dato dall'operatore % in grado di mettere in relazione una formattazione (in formato stringa) e dei valori. 
+Un altro stile di formattazione delle stringhe è dato dall'operatore `%` in grado di mettere in relazione una formattazione (in formato stringa) e dei valori. 
 
-    >>> "%s possono essere %s" % ("Le stringhe", "interpolate") 
-    'Le stringhe possono essere interpolate'
+```python
+>>> "%s possono essere %s" % ("Le stringhe", "interpolate") 
+'Le stringhe possono essere interpolate'
+```
 
 Quosto modo è al momento meno utilizzato, per saperne di più si può consultare la pagina [string-formatting](https://docs.python.org/3/library/stdtypes.html?highlight=string%20interpolation#printf-style-string-formatting) della guida ufficiale.
 
 ### Formatted string literals - f-string
 
-Da Python 3.6 sono state aggiunte le _Formatted string literals_ o più semplicemente f-string, vengono indicate con una f prima della stringa vera e propria e permettono una formattazione in stile template.
+Da Python 3.6 sono state aggiunte le _Formatted string literals_ o più semplicemente _f-string_, vengono indicate con una `f` prima della stringa vera e propria e permettono una formattazione in stile template.
 
-    >>> name = 'John'
-    >>> food = 'le lasagne'
-    >>> f'Si chiama {name} e ama {food}.'
-    Si chiama John e ama le lasagne.
+```python
+>>> name = 'John'
+>>> food = 'le lasagne'
+>>> f'Si chiama {name} e ama {food}.'
+Si chiama John e ama le lasagne.
+```
 
-Con le f-string è possibile anche eseguire delle espressioni all'interno del template.
+Con le _f-string_ è possibile anche eseguire delle espressioni all'interno del template.
 
-    >>> name = 'John'
-    >>> seven = 7
-    >>> f'''Il suo nome è {name.upper()}
-    ...    ed ha {6 * seven} anni.'''
-    'Il suo nome è John ed ha 42 anni.'
+```python
+>>> name = 'John'
+>>> seven = 7
+>>> f'''Il suo nome è {name.upper()}
+...ed ha {6 * seven} anni.'''
+'Il suo nome è John ed ha 42 anni.'
+```
 
 
 
