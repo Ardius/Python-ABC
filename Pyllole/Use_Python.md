@@ -13,7 +13,7 @@ L'interprete Python si esegue da linea di comando e si presenta semplicemente co
 
 A seconda di come, cosa e dove è stato installato Python, potrebbe essere necessario specificare quale versione si vuole eseguire. Ad oggi molte versioni pre-installate eseguono Python 2.7 di default, in questi casi è necessario specificare `python3` per eseguire l'ultima versione.
 
-```bash
+```
 $ python
 Python 2.7.13 (default, Nov 24 2017, 17:33:09)
 [GCC 6.3.0 20170516] on linux2
@@ -21,7 +21,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-```bash
+```
 $ python3
 Python 3.5.3 (default, Jan 19 2017, 14:11:04)
 [GCC 6.3.0 20170118] on linux
