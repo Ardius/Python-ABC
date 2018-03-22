@@ -8,46 +8,63 @@ _Ricorda, in python [l'indentazione](Indentation.md) è molto importante!_
 
 La sintassi di base di _if_ è:
 
-	if condizione:                                         
-	    comandi_da_eseguire
+    if condizione:                                         
+        comandi_da_eseguire
 
 Esiste poi la possibilità di eseguire altri comandi se la condizione non risulta soddisfatta aggiungendo l'istruzione _else_.
 
-	if condizione:                                         
-	    comandi_da_eseguire
+    if condizione:                                         
+        comandi_da_eseguire
     else:
         diversi_comandi_da_eseguire
 
 
 Nel caso in cui ci siano più condizioni da valutare è possibile aggiungere _elif_ (contrazione di "else if").
 
-	if condizione_1:                                         
-	    comandi_da_eseguire
-	elif condizione_2:                                         
-	    comandi_da_eseguire
-	elif condizione_3:                                         
-	    comandi_da_eseguire
-    else:
-        diversi_comandi_da_eseguire
+```
+if condizione_1:                                         
+    comandi_da_eseguire
+elif condizione_2:                                         
+    comandi_da_eseguire
+elif condizione_3:                                         
+    comandi_da_eseguire
+else:
+    diversi_comandi_da_eseguire
+```
 
 In quest'ultimo caso il "ramo" di comandi in _else_ verrà eseguito solo se nessuna delle condizioni precedentemente valutate risulterà positiva.
 
 
 Un esempio in Python:
 
-    numero=5                                         
-    if numero > 10:
-        print("numero è maggiore di 10")
-    elif numero < 10:
-        print("numero è minore di 10")
-    else:
-        print("numero è uguale a 10.")
-    
+```python
+numero=5                                         
+if numero > 10:
+    print("numero è maggiore di 10")
+elif numero < 10:
+    print("numero è minore di 10")
+else:
+    print("numero è uguale a 10.")
+```
+
 Darà come risultato:
 
-    some_var è minore di 10                                
+```python
+numero è minore di 10                                
+```
 
+## Espressioni condizionali 
 
+Un'espressione condizionale, conosciuta in altri linguaggi tramite gli operatori ternari, è la possibilità di eseguire un determinato comando solo se una condizione risulta vera, altrimenti eseguirne un altro.
+
+La sintassi è: `<expression1> if <condition> else <expression2>`
+
+Un tipico esempio è l'assegnazione condizionale. Nel seguente esempio alla variabile `isApple` verrà assegnata las stringa `'Yes'` solo se la condizione `fruit == 'Apple'` sarà `True`, altrimenti sarà assegnata la stringa  `'No'`
+
+```python
+fruit = 'Apple'
+isApple = 'Yes' if fruit == 'Apple' else 'No'
+```
 
 ---
 
