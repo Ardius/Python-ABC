@@ -1,4 +1,4 @@
-# Usare Python
+# Come usare Python
 
 Una volta installato Python ci sono due fondamentali modi per utilizzarlo:
 
