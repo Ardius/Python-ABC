@@ -100,3 +100,8 @@ Per convertire in intero una stringa, o un float, si utilizza la funzione `int()
 
 C'è una funzione di casting per ogni tipo di dato, molto usate sono, ad esempio, `str()`, `float()`, `list()` o `dict()`.
 
+## Tutto è un oggetto
+
+Senza voler anticipare concetti troppo avanzati, sappi solo che in Python ogni tipo è un oggetto.
+Se in altri linguaggi una stringa è solo uno spazio contenente i byte relativi ai caratteri che la compongono, in Python è un oggetto più complesso con relativi medoti e proprietà.
+
