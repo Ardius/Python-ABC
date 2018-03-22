@@ -23,8 +23,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ```bash
 $ python3
-Python 3.4.2 (default, Oct  8 2014, 10:45:20)
-[GCC 4.9.1] on linux
+Python 3.5.3 (default, Jan 19 2017, 14:11:04)
+[GCC 6.3.0 20170118] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
