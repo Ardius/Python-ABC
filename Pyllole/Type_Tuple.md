@@ -66,6 +66,7 @@ Guarda come è facile scambiare due valori
 4
 >>> d
 5
+```
 
 **Importante**: Si noti che una tupla di lunghezza uno deve avere una virgola dopo l'ultimo elemento ma tuple di altre lunghezze, anche zero, no.
 
