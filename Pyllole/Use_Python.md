@@ -130,7 +130,10 @@ Se al file sono stati dati i permessi di esecuzione, è anche possibile eseguirl
 $ ./prova.py
 Hello, world!
 ```
+
 *Attenzione*: per eseguire direttamente un file _.py_ in Linux si devono prima assegnare al file i permessi di esecuzione con `chmod +x ./prova.py`. Windows e macOs necessitano che i file _.py_ siano associati all'interprete Python.
+
+Eseguendo il file `prova.py` viene generato il file `prova.pyc` che, per spiegarla semplicemente, è una versione del programma trasformata in _bytecode_ pronta per essere eseguita dall'interprete Python.
 
 ### Convenzioni del codice
 
