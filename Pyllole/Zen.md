@@ -1,4 +1,8 @@
-# Lo Zen di Python, di Tim Peters
+# Lo Zen di Python
+
+_Zen of Python_ è una raccolta di 20 principi che hanno influenzato, e continuano ad influenzare, lo sviluppo del linguaggio Python.
+
+## Lo Zen di Python, di Tim Peters
 
 * Bello è meglio di brutto.
 * Esplicito è meglio di implicito.
@@ -20,7 +24,7 @@
 * Se l'implementazione è facile da spiegare, potrebbe essere una buona idea.
 * I namespace sono una delle grandi idee - facciamone di più!
 
-Per vedere l'originale, 
+Puoi vedere l'originale in inglese tramite l'interprete Python importando il modulo `this`.
 
 ```
 >>> import this
