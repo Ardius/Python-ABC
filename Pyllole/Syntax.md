@@ -10,16 +10,17 @@ Questi cinque principi, presi da [Lo Zen di Python](Zen.md), fanno capire quanto
 
 In Python ogni comando si scrive su una singola riga e non necessita di particolari caratteri di termine (altri linguaggi necessitano, per esempio, di `;`). Se si vogliono scrivere più comandi sulla stessa riga è possibile dividerli utilizzando il `;`. Ma non farlo.
 
+## Identificatori
+
 I nomi utilizzati per identificare variabili, funzioni, classi e moduli devono iniziare con una lettera o con un trattino basso `_`, può poi contenere lettere, cifre e caratteri di sottolineatura. Python è un linguaggio di programmazione case sensitive, `nome`e `Nome` sono quindi due variabili differenti.
 
-total = item_one + \
-        item_two + \
-        item_three
-Statements contained within the [], {}, or () brackets do not need to use the line continuation character. For example −
+Ci sono delle convenzioni relative alla denominazione degli identificatori di Python:
 
-days = ['Monday', 'Tuesday', 'Wednesday',
-        'Thursday', 'Friday']
-        
+* I nomi delle classi iniziano con una lettera maiuscola, tutti gli altri identificatori iniziano con una lettera minuscola
+* Un identificatore che inizi con un trattino basso indica che si tratta di un identificatore privato
+* Un identificatore che inizi con due trattini bassi indica che si tratta di un identificatore fortemente privato
+* Se l'identificatore inizia e finisce con due trattini bassi allora è un nome speciale definito nel linguaggio.
+
 
 ## Indentazione
 
@@ -51,7 +52,30 @@ def fattoriale(x):
 
 Sbagliare l'indentazione genera un `IndentationError`, le linee guida indicano che l'indentazione va fatta utilizzando 4 spazi, non tabulature. 
 
+## Istruzioni multilinea
 
+L'interprete considera ogni riga come un'istruzione intera, è possibile tuttavia usare il carattere `\` per indicare che l'istruzione continua anche sulla linea successiva. 
+
+Questo:
+
+```Python
+totale = primo + secondo + terzo
+```
+
+Può anche essere scritto così:
+
+```Python
+totale = primo + \
+         secondo + \
+         terzo
+```
+
+Le istruzioni contenute nelle parentesi [], {} o () non necessitano del carattere `\` per continuare sulle righe successive:
+
+```Python
+frutta = ['Arancia', 'Pesca', 'Ananas',
+        'Fragole', 'Albicocca']
+```        
 
 ### Commenti e documentazione
 
