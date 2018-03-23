@@ -2,24 +2,27 @@
 
 In un programma le istruzioni vengono eseguite nell'ordine in cui sono scritte nel codice. 
 
-Per poter eseguire una parte di questo codice solo in alcuni casi si utilizza l'istruzione di controllo  _if/else_.
+Per poter eseguire una parte di questo codice solo in alcuni casi si utilizza l'istruzione di controllo  `if`/`else`.
 
 _Ricorda, in python [l'indentazione](Indentation.md) è molto importante!_
 
-La sintassi di base di _if_ è:
+La sintassi di base di `if` è:
 
-    if condizione:                                         
-        comandi_da_eseguire
+```python
+if condizione:                                         
+    comandi_da_eseguire
+```
 
-Esiste poi la possibilità di eseguire altri comandi se la condizione non risulta soddisfatta aggiungendo l'istruzione _else_.
+Esiste poi la possibilità di eseguire altri comandi se la condizione non risulta soddisfatta aggiungendo l'istruzione `else`.
 
-    if condizione:                                         
-        comandi_da_eseguire
-    else:
-        diversi_comandi_da_eseguire
+```python
+if condizione:                                         
+    comandi_da_eseguire
+else:
+    diversi_comandi_da_eseguire
+```
 
-
-Nel caso in cui ci siano più condizioni da valutare è possibile aggiungere _elif_ (contrazione di "else if").
+Nel caso in cui ci siano più condizioni da valutare è possibile aggiungere `elif` (contrazione di "else if").
 
 ```
 if condizione_1:                                         
@@ -32,8 +35,7 @@ else:
     diversi_comandi_da_eseguire
 ```
 
-In quest'ultimo caso il "ramo" di comandi in _else_ verrà eseguito solo se nessuna delle condizioni precedentemente valutate risulterà positiva.
-
+In quest'ultimo caso il "ramo" di comandi in `else` verrà eseguito solo se nessuna delle condizioni precedentemente valutate risulterà positiva.
 
 Un esempio in Python:
 
