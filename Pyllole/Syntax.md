@@ -77,7 +77,19 @@ frutta = ['Arancia', 'Pesca', 'Ananas',
         'Fragole', 'Albicocca']
 ```        
 
-### Commenti e documentazione
+## Virgolette
+
+Le virgolette, o apici, servono per definire stringhe di caratteri.
+Python accetta indistintamente virgolette singole ('), doppie ("), basta che si utilizzino le stesse per l'inizio e la fine della stringa. Inoltre le virgolette triple (''' o """) vengono utilizzate per definire una stringa su più righe. 
+
+```Python
+parola = 'gatto'
+frase = "Questa è una frase."
+paragrafo = """ Questo è un paragrafo
+composto da più righe e frasi."""
+```
+
+## Commenti e documentazione
 
 I commenti all'interno del codice, parti testuali descrittive che vengono ignorate dall'interprete, sono molto utili e si scrivono facendoli precedere da `#`.
 
