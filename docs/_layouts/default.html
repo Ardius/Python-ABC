@@ -39,9 +39,10 @@
 
         <aside id="sidebar">
         
+        <a href="{{ '/' | absolute_url }}">Python ABC</a>  
         <ul>
-         <li><a href="{{ '/' | absolute_url }}/#principali-riferimenti-online">Principali Riferimenti Online</a></li>
-         <li><a href="{{ '/' | absolute_url }}/#per-iniziare">Per iniziare</a></li>
+         <li><a href="{{ '/' | absolute_url }}#principali-riferimenti-online">Principali Riferimenti Online</a></li>
+         <li><a href="{{ '/' | absolute_url }}#per-iniziare">Per iniziare</a></li>
          <li>Pyllole</li>
          <ul>  
          {%- for page in site.pages -%}
