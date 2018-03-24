@@ -42,7 +42,6 @@
         <ul>
         {%- for page in site.pages -%}
          {%- if page.title!='' %}
-          <li><a href="{{ page.path }}{{page.url}}">{{page.title}}</a></li>
           <li><a href="{{ '/' | absolute_url }}{{page.url}}">{{page.title}}</a></li>
          {% endif -%}
         {%- endfor -%}
@@ -78,6 +77,12 @@
       </script>
     {% endif %}
     
-    {{site.collections}}
+    {{site.html_files}}
+    
+    {{site.html_pages}}
+    
+    {{site.static_files}}
+    
+    {{site.pages}}
   </body>
 </html>
