@@ -41,7 +41,9 @@
         
         <ul>
         {% for page in site.pages %}
-          <li>{{page.title}}</li>
+         {% if page.title!='' %}
+          <li>{{page.title}} - {{page.url}} - {{page}}</li>
+         {% endif %}
         {% endfor %}
         </ul>  
           {% if site.show_downloads %}
