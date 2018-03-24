@@ -40,8 +40,9 @@
         <aside id="sidebar">
         
         <ul>
-        {%- for page in site.files -%}
+        {%- for page in site.pages -%}
          {%- if page.title!='' %}
+          <li><a href="{{ page.path }}{{page.url}}">{{page.title}}</a></li>
           <li><a href="{{ '/' | absolute_url }}{{page.url}}">{{page.title}}</a></li>
          {% endif -%}
         {%- endfor -%}
@@ -77,5 +78,6 @@
       </script>
     {% endif %}
     
+    {{site.collections}}
   </body>
 </html>
