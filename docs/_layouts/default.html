@@ -70,11 +70,14 @@
     {% endif %}
     
     
-    <ul>
-{% for page in site.collections.legal.docs %}
-  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% for page in site.pages %}
+  {% if page.categories contains 'fruit' %}
+    <div class="item">
+      <h3>{{page.title}}</h3>
+      <p>{{page.description}}</p>  
+    </div>
+  {% endif %}
 {% endfor %}
-</ul>
     
   </body>
 </html>
