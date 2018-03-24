@@ -152,7 +152,9 @@ Il secondo permette di importare da un modulo solo alcune determinate definizion
 ```
 
 I moduli sono oggetti, ognuno ha un attributo built-in `__name__` il cui contenuto dipende da come state utilizzando il modulo. 
-Se si importa un modulo, allora `__name__` sarà il nome del file senza l'estensione `.py`.  Se eseguite il modulo come un programma indipendente, `__name__` avrà il valore default speciale `__main__`.
+
+* Se si importa un modulo, allora `__name__` sarà il nome del file senza l'estensione `.py`.  
+* Se eseguite il modulo come un programma indipendente, `__name__` avrà il valore default speciale `__main__`.
 
 ### Stile di imporazione
 
