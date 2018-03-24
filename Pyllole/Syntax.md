@@ -117,7 +117,50 @@ def mia_funzione(*args)
     """
 ```
 
-### Convenzioni nella scrittura del codice
+## Moduli e importazione 
+
+Un modulo è un file Python contenente definizioni di variabili, funzioni e classi, che possono essere importati in altri programmi.
+
+Ci sono due distinti modi, e sintassi, per importa i moduli, il primo, `import module` permette di importare un intero modulo.
+
+```python
+>>> import math
+>>> math.pow(2,10)
+1024.0
+```
+
+Il secondo permette di importare da un modulo solo alcune determinate definizioni:
+
+```python
+>>> from math import pow, log
+>>> pow(2,10)
+1024.0
+```
+
+è inoltre possibile "rinominare" un modulo o una definizione importata in questo modo:
+
+```python
+>>> import math as m
+>>> m.pow(2,10)
+1024.0
+```
+
+```python
+>>> from math import pow as potenza
+>>> potenza(2,10)
+1024.0
+```
+
+I moduli sono oggetti, ognuno ha un attributo built-in `__name__` il cui contenuto dipende da come state utilizzando il modulo. 
+Se si importa un modulo, allora `__name__` sarà il nome del file senza l'estensione `.py`.  Se eseguite il modulo come un programma indipendente, `__name__` avrà il valore default speciale `__main__`.
+
+### Stile di imporazione
+
+Le importazioni dei moduli dovrebbero essere all'inizio del file e suddivise su più righe, un import distinto per ogni modulo.
+Dovrebbero anche essere importante seguendo l'ordine: librerie standard, importazioni da terzi e infine applicazioni locali.
+
+
+## Convenzioni nella scrittura del codice
 
 Esistono delle linee guida per la scrittura del Codice python definite nel [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
 
