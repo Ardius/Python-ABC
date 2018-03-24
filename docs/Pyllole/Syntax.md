@@ -13,7 +13,7 @@ Se si vogliono scrivere più comandi sulla stessa riga è possibile dividerli ut
 
 ## Identificatori
 
-I nomi utilizzati per identificare variabili, funzioni, classi e moduli devono iniziare con una lettera o con un trattino basso `_`, può poi contenere lettere, cifre e caratteri di sottolineatura. Python è un linguaggio di programmazione case sensitive, `nome`e `Nome` sono quindi due variabili differenti.
+I nomi utilizzati per identificare variabili, funzioni, classi e moduli devono iniziare con una lettera o con un trattino basso `_`, può poi contenere lettere, cifre e caratteri di sottolineatura. Python è un linguaggio di programmazione case sensitive, cioé i caratteri maiuscoli e quelli minuscoli sono considerati come se fossere due lettere differenti. Quindi `nome` e `Nome` sono considerate due variabili differenti.
 
 Ci sono delle convenzioni relative alla denominazione degli identificatori di Python:
 
