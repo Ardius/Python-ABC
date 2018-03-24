@@ -43,14 +43,14 @@
         <ul>
          <li><a href="{{ '/' | absolute_url }}#principali-riferimenti-online">Principali Riferimenti Online</a></li>
          <li><a href="{{ '/' | absolute_url }}#per-iniziare">Per iniziare</a></li>
-         <li>Pyllole</li>
+         <li><a href="{{ '/' | absolute_url }}#pyllole">Pyllole</a></li>
          <ul>  
          {%- for page in site.pages -%}
           {%- if page.title %}
            <li><a href="{{ '/' | absolute_url }}{{page.url}}">{{page.title}}</a></li>
           {% endif -%}
          {%- endfor -%}
-         <ul>  
+         </ul>  
          <li><a href="{{ '/' | absolute_url }}#strumenti-online">Strumenti Online</a></li>
          <li><a href="{{ '/' | absolute_url }}#documentazione-gratuita">Documentazione Gratuita</a></li>
         </ul>  
