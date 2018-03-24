@@ -48,7 +48,7 @@
            {%- for page in site.pages -%}
             {%- if page.title %}
              <li><a href="{{ '/' | absolute_url }}{{page.url}}">{{page.title}}</a></li>
-            {% endif -%}
+            {%- endif -%}
            {%- endfor -%}
            </ul>
          </li>
