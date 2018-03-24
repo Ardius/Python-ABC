@@ -116,3 +116,10 @@ In questi elenchi possono essere trovati approfondimenti e documentazione relati
        * [Python.it - Media](http://python.it/doc/media/)
    * INGLESE
       * [Free Python Podcasts and Screencasts](https://github.com/EbookFoundation/free-programming-books/blob/master/free-podcasts-screencasts-en.md#python)
+
+---
+
+Ogni contributo è ben accetto, leggi il [codice di condotta](CODE_OF_CONDUCT.md) e la pagina con le [linee guida alla collaborazione](CONTRIBUTING.md).
+
+Questa guida è è pubblicata con licenza [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) [leggi qui](https://github.com/Draio/Python-ABC/blob/master/LICENSE) i dettagli.
+
