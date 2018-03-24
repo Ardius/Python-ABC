@@ -117,5 +117,5 @@ In questi elenchi possono essere trovati approfondimenti e documentazione relati
 
 Ogni contributo è ben accetto, leggi il [codice di condotta](CODE_OF_CONDUCT.md) e la pagina con le [linee guida alla collaborazione](CONTRIBUTING.md).
 
-Questa guida è è pubblicata con licenza [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) [leggi qui](https://github.com/Draio/Python-ABC/blob/master/LICENSE) i dettagli.
+Questa guida è è pubblicata con licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (Creative Commons Attribution 4.0 International)  - [leggi qui  i dettagli](https://github.com/Draio/Python-ABC/blob/master/LICENSE).
 
