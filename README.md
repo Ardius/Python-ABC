@@ -10,7 +10,7 @@ Queste pagine vogliono essere un semplice strumento in grado di fornire un'immed
 
 Prima di voler scrivere un qualunque programma con Python è necessario conoscere le basi.
 
-[Vai alla pagina principale di Python-ABC](https://github.com/draio/Python-ABC/blob/master/docs/index.md)
+[Vai alla pagina principale di Python-ABC](https://draio.github.io/Python-ABC/)
 
 Ogni contributo è ben accetto, leggi il [codice di condotta](CODE_OF_CONDUCT.md) e la pagina con le [linee guida alla collaborazione](CONTRIBUTING.md).
 
