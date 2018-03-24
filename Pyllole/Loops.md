@@ -6,7 +6,7 @@ Per ripetere una determinata azione più volte e/o su più elementi si utilizzan
 
 Il programma ripeterà il codice all'interno del ciclo per un numero di volte determinato da una determinata condizione.
 
-_Ricorda, in python [l'indentazione](Indentation.md) è molto importante!_
+_Ricorda, in python [l'indentazione](Syntax.md#indentazione) è molto importante!_
 
 
 ## For
