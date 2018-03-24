@@ -135,51 +135,9 @@ Hello, world!
 
 Eseguendo il file `prova.py` viene generato il file `prova.pyc` che, per spiegarla semplicemente, è una versione del programma trasformata in _bytecode_ pronta per essere eseguita dall'interprete Python.
 
-### Convenzioni del codice
+### Sintassi e stile di scrittura
 
-Gli script si iniziano con le importazioni dei moduli necessari, un import distinto per ogni modulo.
+Consulta la pagina relatica alla (sintassi di base](Syntax.md) per cominciare a conoscere il linguaggio python.
 
-```python
-#! /usr/bin/python3
+Anche se al momento è prematuro, sappi che in Python anche lo stile di scritture del codice è importante ed è definito nel [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
 
-import os
-import sys
-
-```
-L'indentazione va fatta utilizzando 4 spazi, non tabulature.
-
-La dimensione massima di ogni riga non dovrebbe superare i 79 caratteri. Per dividere comandi molto lunghi su più righe è possibile utilizzare il backslash `\`.
-
-```python
-with open('/path/to/some/file/you/want/to/read') as file_1, \
-     open('/path/to/some/file/being/written', 'w') as file_2:
-    file_2.write(file_1.read())
-```
-
-### Commenti e documentazione
-
-I commenti all'interno del codice, parti testuali descrittive che vengono ignorate dall'interprete, sono molto utili e si scrivono facendoli precedere da `#`.
-
-I commenti vanno scritti su allo stesso livello di indentazione del codice che si sta commentando. È meglio evitare i commenti sulla stessa linea del codice.
-
-
-```python
-#! /usr/bin/python3
-
-import os
-
-# Qui assegno un nome a una variabile
-mia_var="pippo"
-```
-
-È possibile scrivere documentazione, più lunga di una singola riga di commento, scrivendo il testo racchiuso tra `"""`.
-
-```python
-#! /usr/bin/python3
-
-def mia_funzione(*args)
-    """ Questa funzione restituisce ...
-        Gli argomenti ...   
-    """
-    
-```
