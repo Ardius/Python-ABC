@@ -1,6 +1,6 @@
 # Try - Except
 
-_Ricorda, in python [l'indentazione](Indentation.md) è molto importante!_
+_Ricorda, in python [l'indentazione](Syntax.md#indentazione) è molto importante!_
 
 Le eccezioni (exception) sono errori rilevati durante l'esecuzione di un programma.
 
