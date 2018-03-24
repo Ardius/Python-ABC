@@ -25,7 +25,7 @@ Ci sono delle convenzioni relative alla denominazione degli identificatori di Py
 
 ## Indentazione
 
-La forma è così importante che al posto di utilizzare, come in quasi tutti i linguaggi, le parentesi per delimitare i blocchi di codice, in Python si utilizza l'indentazione.
+In Python la forma è così importante che al posto di utilizzare, come in quasi tutti i linguaggi, le parentesi per delimitare i blocchi di codice, si utilizza l'indentazione.
 
 L'indentazione è l'inserimento di spazi vuoti all'inizio di una riga, normalmente si utilizza per far capire, a chi legge un programma, che certe parti di codice fanno riferimento ad un ciclo (`for`, `while`) o ad un controllo condizionale (`if`/`else`).
 
