@@ -38,6 +38,12 @@
         </section>
 
         <aside id="sidebar">
+        
+        <ul>
+        {% for page in site.pages %}
+          <li>{{page.title}}</li>
+        {% endfor %}
+        </ul>  
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="button">
               <small>Download</small>
@@ -68,14 +74,6 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    
-    
-{% for page in site.pages %}
-    <div class="item">
-      <h3>{{page.title}}</h3>
-      <p>{{page.description}}</p>  
-    </div>
-{% endfor %}
     
   </body>
 </html>
