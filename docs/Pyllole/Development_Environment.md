@@ -46,3 +46,6 @@ Il processo di creazione del programma parte dalla scrittura del codice ma conti
 Un IDE (Integrated Development Environment), conosciuto anche come _ambiente di sviluppo integrato_, è un unico programma dal quale è possibile gestire tutte le fasi dello sviluppo di un software. Un IDE permette da un unica interfaccia di scrivere, controllare, compilare, eseguire, testare e distribuire un programma.
 
 * [PyCharm](https://www.jetbrains.com/pycharm/)
+* [PyDev (Eclipse for Python)](http://www.pydev.org/)
+* [WingIDE](https://wingware.com/)
+* [Komodo IDE](https://www.activestate.com/komodo-ide)
